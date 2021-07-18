@@ -1,0 +1,29 @@
+@import "font.less";
+@import "icon.less";
+@import "elements.less";
+@import "animate.less";
+@var : #f00;
+
+
+body
+{
+  direction: rtl;
+  font-size: 9pt;
+  font-family: Traffic;
+  color : @var;
+  span
+  {
+    background-color : #00f;
+  }
+}
+.button
+{
+  font-size: 12px;
+  color : @var + #ff1111;
+  background-color : @var - #111;
+  &:hover
+  {
+    color : @var + #222;
+  }
+}
+

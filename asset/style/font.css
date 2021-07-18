@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "BBCNassim";
+  src: url("../font/BBCNassim.eot");
+  src: url("../font/BBCNassim.woff") format("woff");
+  src: url("../font/BBCNassim.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'unique';
+  src: url('../font/Traffic.eot');
+  src: url('../font/Traffic.otf') format('opentype');
+  src: url('../font/Traffic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'unique';
+  src: url('../font/Yekan.eot');
+  src: url('../font/Yekan.otf') format('opentype');
+  src: url('../font/Yekan.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: rgba(0, 0, 0.2) 0 0 1px;
+}
+.tiny {
+  font-size: 60%;
+}
+.small {
+  font-size: 80%;
+}
+.large {
+  font-size: 120%;
+}
+.huge {
+  font-size: 140%;
+}

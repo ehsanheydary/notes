@@ -1,0 +1,12 @@
+Options -Indexes
+
+
+RewriteEngine On
+RewriteBase /notes/
+
+
+RewriteCond %{REQUEST_URI} !\.(jpg|png|css|js)$
+RewriteRule .* index.php [L]
+
+
+
